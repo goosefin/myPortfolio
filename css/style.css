@@ -1,0 +1,23 @@
+body{
+    background-image: url('../images/background.png');
+    background-size:cover;
+    color: white;
+    height: 100vh;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    width: 30em;
+}
+
+.header-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
