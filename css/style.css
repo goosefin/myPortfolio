@@ -1,7 +1,10 @@
 body{
+    color: white;
+}
+
+header{
     background-image: url('../images/background.png');
     background-size:cover;
-    color: white;
     height: 100vh;
 }
 
@@ -14,10 +17,51 @@ nav{
     display: flex;
     justify-content:space-around;
     width: 30em;
+    margin-top: 15px;
 }
 
 .header-link{
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vh;
+    margin:175px 0 0 100px;
+}
+
+.content h1{
+    color: white;
+}
+
+#about{
+    color:black;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70em;
+    margin-left: 15em;
+    height: 40em;
+    justify-content: space-between;
+}
+
+.list-div{
+    display: flex;
+    width: 20em;
+    height: 6em;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: "*";
+    flex-direction: column;
+    justify-content: space-between;
 }
