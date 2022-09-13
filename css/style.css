@@ -1,9 +1,10 @@
 body{
     color: white;
+    font-family: 'Jura', sans-serif;
 }
 
 header{
-    background-image: url('../images/background.png');
+    background-image: url('../images/background2.jpeg');
     background-size:cover;
     height: 100vh;
 }
@@ -40,6 +41,7 @@ nav{
 
 #about{
     color:black;
+    height: 100vh;
 }
 
 .section{
@@ -64,4 +66,26 @@ ul{
     list-style-type: "*";
     flex-direction: column;
     justify-content: space-between;
+}
+
+#projects{
+    color:white;
+    background-color: black;
+    height:100vh;
+}
+
+.card{
+    width:300px;
+}
+
+h2{
+    text-align: center;
+    font-size:40px;
+}
+
+#card-div{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    align-items: flex-start;
 }
