@@ -126,16 +126,39 @@ h2{
     color:black;
 }
 
-#graphs{
+.progress-bars{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.bar-sections{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgba(4, 0, 105, 0.999) !important;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(219, 215, 215) !important; 
+}
+
+.bar-labels{
     display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-img{
-    width: 40em;
-    height: 30em;
-}
-
-/* ============ Skills & Languages ============ */
+/* ============ Footer ============ */
 footer{
     background-color: black;
 }
