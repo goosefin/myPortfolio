@@ -1,14 +1,15 @@
 body{
-    color: white;
+    color: black;
     font-family: 'Jura', sans-serif;
     font-weight:900;
+    background-color: #FEFAE0;
 }
 
 /* ============ Header ============ */
 header{
-    background-image: url('../images/background2.jpeg');
+    background-image: url('../images/natural-green-hand-painted-watercolor-texture-background_1017-39357.webp');
     background-size:cover;
-    height: 100vh;
+    height: 75vh;
 }
 
 .nav-div{
@@ -19,14 +20,21 @@ header{
 nav{
     display: flex;
     justify-content:space-around;
-    width: 30em;
+    width: 40em;
     margin-top: 15px;
+    margin-right:15px;
 }
 
 .header-link{
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: #283618;
+    font-size: 25px;
+    
+}
+
+.header-link:hover{
+    font-size: 30px;
+    margin-top:-9px
 }
 
 .content{
@@ -35,31 +43,31 @@ nav{
     justify-content: center;
     max-width: 30em;
     margin:100px 0 0 100px;
-    height: 500px;
+    height: 350px;
     flex-wrap: wrap;
 }
 
 .content h1{
-    color: white;
+    color: black;
 }
 
 #me{
     height:12em;
-    border:3px solid white;
+    border:3px solid #283618;
     border-radius: 50%;
     margin-bottom: 75px;
 }
 
 #dogs{
     height:12em;
-    border:3px solid white;
+    border:3px solid #283618;
     border-radius: 50%;
 }
 
 /* ============ About ============ */
 #about{
     color:black;
-    height: 100vh;
+    height: 75vh;
 }
 
 .section{
@@ -68,8 +76,8 @@ nav{
     align-items: flex-end;
     max-width: 70em;
     margin-left: 15em;
-    height: 40em;
-    justify-content: space-between;
+    height: 35em;
+    justify-content: space-evenly;
 }
 
 .list-div{
@@ -88,8 +96,8 @@ ul{
 
 /* ============ Projects ============ */
 #projects{
-    color:white;
-    background-color: black;
+    color:#FEFAE0;
+    background-color: #606C38;
     height:100vh;
 }
 
@@ -112,14 +120,7 @@ h2{
 .card-footer{
     display: flex;
     justify-content: center;
-    padding-top:10px;
-    padding-bottom: 10px;
-    background-color: rgb(152, 152, 152);
-}
-
-.card-footer:hover{
     background-color: white;
-    color:black;
 }
 
 .card-footer-item{
@@ -129,7 +130,8 @@ h2{
 
 .card-footer-item:hover{
     text-decoration:none;
-    color:black;
+    background-color: #283618;
+    color:white;
 }
 
 /* ============ Skills & Languages ============ */
@@ -159,11 +161,11 @@ h2{
 }
 
 progress::-webkit-progress-value {
-    background-color: rgba(4, 0, 105, 0.999) !important;
+    background-color: #283618 !important;
 }
 
 progress::-webkit-progress-bar {
-    background-color: rgb(219, 215, 215) !important; 
+    background-color: #626e39 !important; 
 }
 
 .bar-labels{
@@ -175,6 +177,7 @@ progress::-webkit-progress-bar {
 
 /* ============ Footer ============ */
 footer{
-    background-color: black;
+    background-color: #283618;
+    color: #FEFAE0;
 }
 
