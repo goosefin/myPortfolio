@@ -176,8 +176,23 @@ progress::-webkit-progress-bar {
 }
 
 /* ============ Footer ============ */
-footer{
+#foot{
     background-color: #283618;
     color: #FEFAE0;
+    height: 20em;
+}
+
+.label{
+    color:white ;
+}
+
+#contact-form{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#form-container{
+    display:flex;
+    
 }
 
