@@ -186,83 +186,88 @@
 
     <footer id="foot">
         <h2>Contact Info</h2>
-        <!-- <ul>
+        <ul>
             <li><a href="https://www.linkedin.com/in/agustina-fin">Linked In</a></li>
             <li><a href="https://github.com/goosefin">GitHub</a></li>
             <li><a href="www.linkedin.com/in/agustina-fin">Resume</a></li>
-        </ul> -->
+        </ul>
 
         <form action="https://formsubmit.co/agustinafin96@gmail.com" method="POST" id="contact-form">
-            <h3>Contact Me Directly!</h3>
+            <h3 id="form-header">Contact Me Directly!</h3>
             <div class="field is-horizontal" id="form-container">
-                <div class="field-label is-normal">
-                    <label class="label" id="from">From</label>
+                <div>
+                    <div class="field-body">
+                        <div class="field-label is-normal">
+                            <label class="label" id="from">From</label>
+                        </div>
+                        <div class="field">
+                          <p class="control is-expanded has-icons-left">
+                            <input class="input" type="text" placeholder="Name">
+                            <span class="icon is-small is-left">
+                              <i class="fas fa-user"></i>
+                            </span>
+                          </p>
+                        </div>
+                  
+                        <div class="field">
+                          <p class="control is-expanded has-icons-left has-icons-right">
+                            <input class="input" type="email" placeholder="Email" value="YourEmail@email.com">
+                            <span class="icon is-small is-left">
+                              <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                              <i class="fas fa-check"></i>
+                            </span>
+                          </p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="field-body">
-                    <div class="field">
-                      <p class="control is-expanded has-icons-left">
-                        <input class="input" type="text" placeholder="Name">
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-user"></i>
-                        </span>
-                      </p>
-                    </div>
-              
-                    <div class="field">
-                      <p class="control is-expanded has-icons-left has-icons-right">
-                        <input class="input" type="email" placeholder="Email" value="YourEmail@email.com">
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-envelope"></i>
-                        </span>
-                        <span class="icon is-small is-right">
-                          <i class="fas fa-check"></i>
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                      <label class="label">Subject</label>
-                    </div>
-
-                    <div class="field-body">
-                      <div class="field">
-                        <div class="control">
-                          <input class="input" type="text" placeholder="e.g. Employment opportunity">
+                <div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                          <label class="label">Subject</label>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                      <label class="label">Question</label>
-                    </div>
-                    <div class="field-body">
-                      <div class="field">
-                        <div class="control">
-                          <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+    
+                        <div class="field-body">
+                          <div class="field">
+                            <div class="control">
+                              <input class="input" type="text" placeholder="e.g. Employment opportunity">
+                            </div>
+                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
+
+                <div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                          <label class="label">Message</label>
+                        </div>
+    
+                        <div class="field-body">
+                          <div class="field">
+                            <div class="control">
+                              <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
                   
-                  <div class="field is-horizontal">
+                <div class="field is-horizontal">
                     <div class="field-label">
                       <!-- Left empty for spacing -->
                     </div>
+
                     <div class="field-body">
                       <div class="field">
                         <div class="control">
-                          <button class="button">
-                            Send message
-                          </button>
+                          <button class="button">Send message</button>
                         </div>
                       </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </form>
     </footer>
