@@ -19,7 +19,7 @@
                 <a class="header-link" href="#about">About Me</a>
                 <a class="header-link" href="#projects">Projects</a>
                 <a class="header-link" href="#skills-languages">Skills & Languages</a>
-                <a class="header-link" href="#">Resume</a>
+                <a class="header-link" href="./images/Agustina Fin Scigliano .pdf" target="_blank">Resume</a>
             </nav>
         </div>
 
@@ -172,7 +172,7 @@
                 <div class="bar-labels">
                     <img src="./images/react.png" alt="react.js logo"/>
                     <label id="react" for="progress">React</label>
-                    <progress id="react" class="progress is-large" value="50" max="100">50%</progress>
+                    <progress id="react" class="progress is-large" value="65" max="100">65%</progress>
                 </div>
     
                 <div class="bar-labels">
@@ -186,11 +186,22 @@
 
     <footer id="foot">
         <h2>Contact Info</h2>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/agustina-fin">Linked In</a></li>
-            <li><a href="https://github.com/goosefin">GitHub</a></li>
-            <li><a href="./images/Agustina Fin Scigliano .pdf" target="_blank">Resume</a></li>
-        </ul>
+        <div id="link-list">
+            <div class="link-list-div" id="linkedin-img">
+                <img src="./images/linkedin.png" class="footer-links"/>
+                <p>Linked In</p>
+            </div>
+
+            <div class="link-list-div" id="github-img">
+                <img src="./images/big_git.png" class="footer-links"/>
+                <p>Git Hub</p>
+            </div>
+            
+            <div class="link-list-div" id="resume-img">
+                <img src="./images/resume.png" class="footer-links"/>
+                <p>Resume</p>
+            </div>
+        </div>
 
         <form action="https://formsubmit.co/agustinafin96@gmail.com" method="POST" id="contact-form">
             <h3 id="form-header">Contact Me Directly!</h3>
@@ -211,7 +222,7 @@
                   
                         <div class="field">
                           <p class="control is-expanded has-icons-left has-icons-right">
-                            <input class="input" id="email-input" type="email" placeholder="Email" value="YourEmail@email.com">
+                            <input class="input" id="email-input" type="email" placeholder="Email">
                             <span class="icon is-small is-left">
                               <i class="fas fa-envelope"></i>
                             </span>

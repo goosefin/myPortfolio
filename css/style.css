@@ -191,7 +191,7 @@ progress::-webkit-progress-bar {
     flex-direction: column;
     align-items: flex-end;
     margin-right:3em;
-    margin-top: -3em;
+    margin-top: -20em;
 }
 
 #form-container{
@@ -214,5 +214,25 @@ progress::-webkit-progress-bar {
 
 #from-label{
     margin-left: 68px;
+}
+
+#link-list{
+    display: flex;
+    flex-direction: column;
+    width:15em;
+    margin-left: 3em;
+    height: 20em;
+    justify-content: space-around;
+}
+
+.footer-links{
+    border:1.5px solid #FEFAE0;
+    border-radius: 50%;
+}
+
+.link-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
