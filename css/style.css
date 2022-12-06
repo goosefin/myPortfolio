@@ -207,3 +207,12 @@ progress::-webkit-progress-bar {
     font-weight: 900;
     color:white ;
 }
+
+#name-input{
+    width:230px;
+}
+
+#from-label{
+    margin-left: 68px;
+}
+
