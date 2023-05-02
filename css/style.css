@@ -79,23 +79,10 @@ nav a{
     color:#8ca831;
 }
 
-#me{
-    height:12em;
-    border:3px solid #283618;
-    border-radius: 50%;
-    margin-bottom: 75px;
-}
-
-#dogs{
-    height:12em;
-    border:3px solid #283618;
-    border-radius: 50%;
-}
-
 /* ============ About ============ */
 #about{
     color:black;
-    height: 75vh;
+    height: 90vh;
 }
 
 .section{
@@ -104,8 +91,17 @@ nav a{
     align-items: flex-end;
     max-width: 70em;
     margin-left: 15em;
-    height: 35em;
+    height: 40em;
     justify-content: space-evenly;
+}
+
+.title{
+    color: black;
+    font-size: 40px;
+}
+
+.about-me-p{
+    font-size: 18px;
 }
 
 .list-div{
@@ -124,8 +120,8 @@ ul{
 
 /* ============ Projects ============ */
 #projects{
-    color:#FEFAE0;
-    background-color: #606C38;
+    color:black;
+    /* background-color: #606C38; */
     height:100vh;
 }
 
@@ -135,7 +131,7 @@ ul{
 
 h2{
     text-align: center;
-    font-size:40px;
+    font-size:50px;
 }
 
 #card-div{
@@ -163,7 +159,7 @@ h2{
 }
 
 /* ============ Skills & Languages ============ */
-#skills-languages{
+/* #skills-languages{
     height:100vh;
 }
 
@@ -201,11 +197,11 @@ progress::-webkit-progress-bar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* ============ Footer ============ */
 #foot{
-    background-color: #283618;
+    background-color: black;
     color: #FEFAE0;
     height: 30em;
 }
