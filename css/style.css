@@ -2,72 +2,87 @@ body{
     color: black;
     font-family: 'Jura', sans-serif;
     font-weight:900;
-    background-color: #FEFAE0;
+    background-color: rgb(255, 255, 255);
 }
 
 /* ============ Header ============ */
 header{
-    background-image: url('../images/natural-green-hand-painted-watercolor-texture-background_1017-39357.webp');
+    height: 100vh;
+    background-image: url(../images/gif4.gif);
     background-size:cover;
-    height: 75vh;
 }
 
 .nav-div{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav{
     display: flex;
     justify-content:space-around;
-    width: 40em;
-    margin-top: 15px;
+    align-items: center;
+    width: 50em;
+    height: 3em;
+    margin-top: 20px;
     margin-right:15px;
 }
 
 .header-link{
     text-decoration: none;
-    color: #283618;
+    color: white;
     font-size: 25px;
-    
 }
 
 .header-link:hover{
-    font-size: 30px;
-    margin-top:-9px
+    color:#8ca831;
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 30em;
-    margin:100px 0 0 100px;
-    height: 350px;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-top:14em;
+    color:white;
+}
+
+nav a{
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 1em;
+    padding: .2em;
 }
 
 .content h1{
-    color: black;
+    color: white;
+    background-color: black;
+    font-size: 70px;
+    font-weight:bolder;
 }
 
-#me{
-    height:12em;
-    border:3px solid #283618;
-    border-radius: 50%;
-    margin-bottom: 75px;
+.content p{
+    background-color: black;
+    font-size: 25px;
+    width: 25em;
+    text-align: center;
 }
 
-#dogs{
-    height:12em;
-    border:3px solid #283618;
-    border-radius: 50%;
+#next-btn{
+    background-color: black;
+    border-radius: .5em;
+    font-size: 27px;
+    padding: .2em .3em .2em .3em;
+    color:white;
+    margin-top: 1em;
+}
+
+#next-btn:hover{
+    color:#8ca831;
 }
 
 /* ============ About ============ */
 #about{
     color:black;
-    height: 75vh;
+    height: 90vh;
 }
 
 .section{
@@ -76,8 +91,17 @@ nav{
     align-items: flex-end;
     max-width: 70em;
     margin-left: 15em;
-    height: 35em;
+    height: 40em;
     justify-content: space-evenly;
+}
+
+.title{
+    color: black;
+    font-size: 40px;
+}
+
+.about-me-p{
+    font-size: 18px;
 }
 
 .list-div{
@@ -96,8 +120,8 @@ ul{
 
 /* ============ Projects ============ */
 #projects{
-    color:#FEFAE0;
-    background-color: #606C38;
+    color:black;
+    /* background-color: #606C38; */
     height:100vh;
 }
 
@@ -107,7 +131,7 @@ ul{
 
 h2{
     text-align: center;
-    font-size:40px;
+    font-size:50px;
 }
 
 #card-div{
@@ -135,7 +159,7 @@ h2{
 }
 
 /* ============ Skills & Languages ============ */
-#skills-languages{
+/* #skills-languages{
     height:100vh;
 }
 
@@ -173,11 +197,11 @@ progress::-webkit-progress-bar {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* ============ Footer ============ */
 #foot{
-    background-color: #283618;
+    background-color: black;
     color: #FEFAE0;
     height: 30em;
 }
