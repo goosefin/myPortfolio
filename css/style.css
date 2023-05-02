@@ -2,7 +2,7 @@ body{
     color: black;
     font-family: 'Jura', sans-serif;
     font-weight:900;
-    background-color: #f8f4dc;
+    background-color: rgb(226, 226, 226);
 }
 
 /* ============ Header ============ */
@@ -45,6 +45,10 @@ nav{
     margin-top:12em;
 }
 
+#name{
+    color:#455a00;
+}
+
 .content h1{
     color: black;
     font-size: 65px;
@@ -54,6 +58,15 @@ nav{
     font-size: 25px;
     width: 25em;
     text-align: center;
+}
+
+#next-btn{
+    background-color: #455a00;
+    border-radius: .5em;
+    font-size: 27px;
+    padding: .2em .3em .2em .3em;
+    color:white;
+    margin-top: 1em;
 }
 
 #me{
