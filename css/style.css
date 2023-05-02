@@ -2,12 +2,14 @@ body{
     color: black;
     font-family: 'Jura', sans-serif;
     font-weight:900;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
 }
 
 /* ============ Header ============ */
 header{
-    height: 75vh;
+    height: 100vh;
+    background-image: url(../images/gif4.gif);
+    background-size:cover;
 }
 
 .nav-div{
@@ -16,7 +18,6 @@ header{
 }
 
 nav{
-    background-color: white;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -24,49 +25,58 @@ nav{
     height: 3em;
     margin-top: 20px;
     margin-right:15px;
-    box-shadow: 3px 3px 10px;
 }
 
 .header-link{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 25px;
 }
 
 .header-link:hover{
-    color:#717e46;
-    text-decoration: underline;
+    color:#8ca831;
 }
 
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:12em;
+    margin-top:14em;
+    color:white;
 }
 
-#name{
-    color:#455a00;
+nav a{
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 1em;
+    padding: .2em;
 }
 
 .content h1{
-    color: black;
-    font-size: 65px;
+    color: white;
+    background-color: black;
+    font-size: 70px;
+    font-weight:bolder;
 }
 
 .content p{
+    background-color: black;
     font-size: 25px;
     width: 25em;
     text-align: center;
 }
 
 #next-btn{
-    background-color: #455a00;
+    background-color: black;
     border-radius: .5em;
     font-size: 27px;
     padding: .2em .3em .2em .3em;
     color:white;
     margin-top: 1em;
+}
+
+#next-btn:hover{
+    color:#8ca831;
 }
 
 #me{
