@@ -205,6 +205,12 @@ h2{
     justify-content: space-evenly;
 }
 
+@media screen and (max-width:1024px){
+    .card{
+        max-width: 200px;
+    }
+}
+
 @media screen and (max-width: 938px) {
     .content h1{
       font-size: 50px;
@@ -295,6 +301,12 @@ h2{
     }
 }
 
+@media screen and (max-width:599px){
+    #projects{
+        height: 300vh;
+    }
+}
+
 @media screen and (max-width:425px){
     .content h1{
         font-size:35px;
@@ -306,7 +318,7 @@ h2{
     }
 
     #about{
-        height: 190vh;
+        height: 130vh;
     }
 
     .section{
@@ -320,7 +332,7 @@ h2{
     }
 
     #projects{
-        height: 330vh;
+        height: 300vh;
     }
 
     #foot{
@@ -341,7 +353,7 @@ h2{
     }
 
     #contact-form{
-        margin-right:0;
+        margin-right:1.3em;
         margin-top: 1.5em;
     }
 
