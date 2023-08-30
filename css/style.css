@@ -1,7 +1,6 @@
 body {
   color: black;
   font-family: "Inter", sans-serif;
-  font-weight: 900;
   background-color: rgb(255, 255, 255);
 }
 
@@ -53,7 +52,7 @@ nav a {
   border: 2px solid white;
   background-color: black;
   border-radius: 1em;
-  padding: 0.35em;
+  padding: 0.25em 0.4em 0.25em 0.4em;
 }
 
 .content h1 {
@@ -89,6 +88,7 @@ nav a {
 .title {
   color: black;
   font-size: 40px;
+  font-family: "Syne", sans-serif;
 }
 
 .about-me-p {
@@ -115,8 +115,14 @@ ul {
   height: 100vh;
 }
 
+#projects h2 {
+  font-family: "Syne", sans-serif;
+}
+
 .card {
   max-width: 300px;
+  background-color: black;
+  color: white;
 }
 
 h2 {
@@ -127,32 +133,34 @@ h2 {
 #card-div {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 4%;
   align-items: flex-start;
 }
 
 .card-footer {
   display: flex;
   justify-content: center;
-  background-color: white;
 }
 
 .card-footer-item {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .card-footer-item:hover {
   text-decoration: none;
-  background-color: #283618;
-  color: white;
+  color: #8ca831;
 }
 
 /* ============ Footer ============ */
 #foot {
   background-color: black;
-  color: #fefae0;
+  color: white;
   height: 30em;
+}
+
+#foot h2 {
+  font-family: "Syne", sans-serif;
 }
 
 .label {
@@ -176,8 +184,7 @@ h2 {
 }
 
 #form-header {
-  padding-right: 14em;
-  font-weight: 900;
+  padding-right: 12em;
   color: white;
 }
 
@@ -200,7 +207,12 @@ h2 {
 
 .footer-links {
   border: 1.5px solid #fefae0;
+  width: 35%;
   border-radius: 50%;
+}
+
+.footer-links:hover {
+  border: 3px solid #8ca831;
 }
 
 .link-list-div {
@@ -208,6 +220,13 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.link-list-div p:hover {
+  font-weight: 700;
+  color: #8ca831;
+}
+
+/* ============ Media Queries ============ */
 
 @media screen and (max-width: 1024px) {
   .card {
